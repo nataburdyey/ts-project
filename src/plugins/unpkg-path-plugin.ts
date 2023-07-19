@@ -6,13 +6,6 @@ const fileCache = localForage.createInstance({
   name: 'filecache',
 });
 
-// (async () => {
-//   await fileCache.setItem('color', 'red');
-
-//   const color = await fileCache.getItem('color');
-//   console.log(color);
-// })();
-
 export const unpkgPathPlugin = () => {
   return {
     name: 'unpkg-path-plugin',
